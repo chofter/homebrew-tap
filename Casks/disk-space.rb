@@ -1,4 +1,4 @@
-cask "diskspace" do
+cask "disk-space" do
   version "1.1.1"
   sha256 "9da39197cf8836a09d8b87ba607b6363c49ccea84e84335758b735d1ed76c2ac"
 
