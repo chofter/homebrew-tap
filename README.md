@@ -4,8 +4,13 @@ Homebrew casks for [Chofter Apps](https://www.chofter.com).
 
 ```sh
 brew tap chofter/tap
+brew trust chofter/tap
 brew install --cask disk-space
 ```
+
+Homebrew will not load a cask from a tap outside its own repositories until you
+say you trust it, which is what the middle line is for. It is asking whether you
+trust this repository to run code on your machine; the answer is yours to give.
 
 ## Disk Space
 
