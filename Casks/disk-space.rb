@@ -1,8 +1,8 @@
 cask "disk-space" do
-  version "1.1.1"
-  sha256 "9da39197cf8836a09d8b87ba607b6363c49ccea84e84335758b735d1ed76c2ac"
+  version "1.1.2"
+  sha256 "ae69f914673bdea6c9f058aa11eb6383c38d2b232972edb341807b91044e3cb3"
 
-  url "https://firebasestorage.googleapis.com/v0/b/myelevation-1.firebasestorage.app/o/diskspace%2Freleases%2F1.1.1%2FDiskSpace-1.1.1.dmg?alt=media&token=727188d8-6db4-440d-a6d9-ebee80c12eed"
+  url "https://firebasestorage.googleapis.com/v0/b/myelevation-1.firebasestorage.app/o/diskspace%2Freleases%2F1.1.2%2FDiskSpace-1.1.2.dmg?alt=media&token=4ba72c5d-c933-4fe2-970a-1f97ed1ec1c3"
   name "Disk Space"
   desc "Disk usage analyser that shows where the space went while it scans"
   homepage "https://www.diskspace.io/"
