@@ -1,9 +1,6 @@
 # Written by agent-graph's scripts/release.sh: edits are overwritten.
-class AgentGraph < Formula
-  desc "Records a live graph of AI coding agent sessions from provider hooks"
-  homepage "https://agentgraph.chofter.com"
+cask "agent-graph" do
   version "0.1.0"
-  license "MIT"
 
   on_macos do
     on_arm do
@@ -27,11 +24,9 @@ class AgentGraph < Formula
     end
   end
 
-  def install
-    bin.install "agent-graph"
-  end
+  name "Agent Graph"
+  desc "Records a live graph of AI coding agent sessions from provider hooks"
+  homepage "https://agentgraph.chofter.com"
 
-  test do
-    assert_match version.to_s, shell_output("#{bin}/agent-graph --version")
-  end
+  binary "agent-graph"
 end
