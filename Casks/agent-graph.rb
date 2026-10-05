@@ -1,26 +1,26 @@
 # Written by agent-graph's scripts/release.sh: edits are overwritten.
 cask "agent-graph" do
-  version "0.1.21"
+  version "0.1.22"
 
   on_macos do
     on_arm do
-      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.21%2Fmac%2Fagent-graph-aarch64-apple-darwin.tar.gz?alt=media&token=d37e98d6-0597-4f1a-9e95-ffee88b81d08"
-      sha256 "21f0792926dfcfc13a63fc3a208f4f5da2d8ff046bacb26ac668b63b860804d8"
+      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.22%2Fmac%2Fagent-graph-aarch64-apple-darwin.tar.gz?alt=media&token=0b8ed07c-ff4c-4050-99b0-71529ef5c4ca"
+      sha256 "445b93c0abd4cd2d31dcd7e6f641a14c36e03b1431d6046310fdb2186c61e56a"
     end
     on_intel do
-      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.21%2Fmac%2Fagent-graph-x86_64-apple-darwin.tar.gz?alt=media&token=cb3bd97d-434a-4ab5-a82c-efc585c4d5c6"
-      sha256 "027ecb69410c11ba68d4db0e0b34a8b1caa1a1ad65acd93790ddbad1d481968e"
+      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.22%2Fmac%2Fagent-graph-x86_64-apple-darwin.tar.gz?alt=media&token=ef9d5f88-5641-4196-8383-725f67965580"
+      sha256 "47040eb32ffdfa153c9ad0ebc0da659a271d981160745ddab573a43bfe7957ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.21%2Flinux%2Fagent-graph-aarch64-unknown-linux-musl.tar.gz?alt=media&token=3d9314f8-5f35-4c74-b972-a58c1bbd7739"
-      sha256 "3a5a6504ae8c5cf0ccdaae0a4f94c4f562707f9ffdde4ea95d5f1a2399ef31e1"
+      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.22%2Flinux%2Fagent-graph-aarch64-unknown-linux-musl.tar.gz?alt=media&token=c7cd5b04-3445-4883-a5f5-c96b570693b2"
+      sha256 "db141d3905f6fd0119e4730355efd1156b2f4f10b765a1823c1beba7785f6710"
     end
     on_intel do
-      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.21%2Flinux%2Fagent-graph-x86_64-unknown-linux-musl.tar.gz?alt=media&token=bb95db96-5dd5-4592-b0ad-4c41b92ea328"
-      sha256 "30c95ceb2068cff2b6913412c732fb05ba8011617da4ac0ee7a147b3ef05a34a"
+      url "https://firebasestorage.googleapis.com/v0/b/agentgraph1.firebasestorage.app/o/releases%2F0.1.22%2Flinux%2Fagent-graph-x86_64-unknown-linux-musl.tar.gz?alt=media&token=b544378c-29bb-4ace-9762-eda061e0b1ba"
+      sha256 "f7285c79a7640bfe04e98236caac6f4a3d6aa264da61827e7e4d06b4e5924570"
     end
   end
 
